@@ -4,7 +4,7 @@
 int button = 8;
 const int led_built = 13;
 
-int counter = 0;
+long counter = 0L;
 
 //Initialize the pins to establish connection (comprehensive version - go down)
 const int rs = 12, en = 11, d4 = 5, d5 = 4, d6 = 3, d7 = 2;
